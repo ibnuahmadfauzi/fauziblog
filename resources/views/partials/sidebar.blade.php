@@ -4,7 +4,7 @@
 
 
     {{-- Menu for Brand --}}
-    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('admin.dashboard') }}">
         <div class="sidebar-brand-icon">
             <i class="fas fa-blog"></i>
         </div>
@@ -19,7 +19,7 @@
 
     {{-- Nav Item - Dashboard --}}
     <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ route('admin.dashboard') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -211,7 +211,7 @@
 
     {{-- Nav Item - Settings --}}
     <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{{ route('admin.setting') }}">
             <i class="fas fa-cog"></i>
             <span>Settings</span>
         </a>

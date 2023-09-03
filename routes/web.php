@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\GeneralSettingController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,4 +19,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// route for Dashbord
 Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
+
+// route for General Setting
+Route::get('/admin/setting', [GeneralSettingController::class, 'index'])->name('admin.setting');
