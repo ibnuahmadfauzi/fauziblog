@@ -28,7 +28,6 @@
 
 
 
-
     {{-- Horizontal Line in Sidebar --}}
     <hr class="sidebar-divider">
     {{-- end Horizontal Line in Sidebar --}}
@@ -41,6 +40,8 @@
         Content Management
     </div>
     {{-- end Heading Menu for Content Management --}}
+
+
 
     {{-- Nav Item - Posts --}}
     <li class="nav-item">
